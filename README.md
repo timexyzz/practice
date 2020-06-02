@@ -1,4 +1,5 @@
 /YourScore/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,11 +20,11 @@ public class YourScore : MonoBehaviour {
 		Yscore.text = "Your Score: " + Score.ToString("N0");
 	}
 }
+
 /YourScore/
 
 
 /TitleEvent/
-
 
 using System.Collections;
 using System.Collections.Generic;
@@ -42,5 +43,6 @@ public class TitleEvent : MonoBehaviour {
 		}
 	}
 }
+
 /TitleEvent/
 
